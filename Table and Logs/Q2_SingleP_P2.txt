@@ -1,0 +1,92 @@
+Q2 np = 1, total points = 1310720000
+Test1:
+[Proc: 0] number of processes = 1, initial local list size = 1310720000, hypercube quicksort time = 205.087249
+[Proc: 0] Congratulations. The list has been sorted correctly.
+Test2:
+[Proc: 0] number of processes = 1, initial local list size = 1310720000, hypercube quicksort time = 205.284062
+[Proc: 0] Congratulations. The list has been sorted correctly.
+Test3:
+[Proc: 0] number of processes = 1, initial local list size = 1310720000, hypercube quicksort time = 216.534592
+[Proc: 0] Congratulations. The list has been sorted correctly.
+Test4:
+[Proc: 0] number of processes = 1, initial local list size = 1310720000, hypercube quicksort time = 213.104241
+[Proc: 0] Congratulations. The list has been sorted correctly.
+Test5:
+[Proc: 0] number of processes = 1, initial local list size = 1310720000, hypercube quicksort time = 209.193091
+[Proc: 0] Congratulations. The list has been sorted correctly.
+
+
+
+
+------------------------------------------------------------
+Sender: LSF System <lsfadmin@nxt1624>
+Subject: Job 13132828: <inverseMatrix> in cluster <Main_Compute> Done
+
+Job <inverseMatrix> was submitted from host <login8> by user <alireza.safdari> in cluster <Main_Compute>.
+Job was executed on host(s) <20*nxt1624>, in queue <sn_short>, as user <alireza.safdari> in cluster <Main_Compute>.
+</home/alireza.safdari> was used as the home directory.
+</scratch/user/alireza.safdari> was used as the working directory.
+Started at Thu Nov 19 02:42:56 2020
+Results reported on Thu Nov 19 03:01:17 2020
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+#BSUB -n 20 -R 'select[nxt] rusage[mem=2560] span[ptile=20]' -M 2560
+#BSUB -J inverseMatrix -o output.%J -L /bin/bash -W 0:30
+##
+##NECESSARY JOB SPECIFICATIONS
+##BSUB -J JobName             # Set the job name to "JobName"
+##BSUB -L /bin/bash           # Uses the bash login shell to initialize the job's execution environment.
+##BSUB -W hh:mm               # Sets job's runtime wall-clock limit in hours:minutes or just minutes (-mm)
+##BSUB -n NNN                 # NNN: total number of cores/jobslots to allocate for the job
+##BSUB -R "select[node-type]" # Select node-type: nxt, mem256gb, gpu, phi, mem1t, mem2t ...
+##BSUB -R "span[ptile=XX]"    # XX:  number of cores/jobslots per node to use. Also, a node selection criterion.
+##BSUB -R "rusage[mem=nnn]"   # Reserves nnn MBs per process/CPU for the job
+##BSUB -M mm                  # Sets the per process enforceable memory limit to nnn MB
+##BSUB -o OUTPUTFILE.%J       # Send stdout and stderr to "OUTPUTFILE.[jobID]"
+#
+# <--- at this point the current working directory is the one you submitted the job from.
+#
+module load intel/2017A       # load Intel software stack 
+#
+#
+
+declare -i pointsPerProcessor=20480000
+#1 2 4 8 16 32 64
+for np in 64
+do
+declare -i totalPoints=pointsPerProcessor*np
+echo "Q2 np = 1, total points = $totalPoints"
+echo "Test1:"
+mpirun -np 1 ./qsort_hypercube.exe $totalPoints 0
+echo "Test2:"
+mpirun -np 1 ./qsort_hypercube.exe $totalPoints 0
+echo "Test3:"
+mpirun -np 1 ./qsort_hypercube.exe $totalPoints 0
+echo "Test4:"
+mpirun -np 1 ./qsort_hypercube.exe $totalPoints 0
+echo "Test5:"
+mpirun -np 1 ./qsort_hypercube.exe $totalPoints 0
+echo ""
+echo ""
+echo ""
+done
+
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   2171.00 sec.
+    Max Memory :                                 10015 MB
+    Average Memory :                             6937.05 MB
+    Total Requested Memory :                     51200.00 MB
+    Delta Memory :                               41185.00 MB
+    Max Processes :                              9
+    Max Threads :                                11
+
+The output (if any) is above this job summary.
+

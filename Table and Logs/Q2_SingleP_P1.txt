@@ -1,0 +1,200 @@
+Q2 np = 1, total points = 20480000
+Test1:
+[Proc: 0] number of processes = 1, initial local list size = 20480000, hypercube quicksort time = 2.686833
+[Proc: 0] Congratulations. The list has been sorted correctly.
+Test2:
+[Proc: 0] number of processes = 1, initial local list size = 20480000, hypercube quicksort time = 2.682586
+[Proc: 0] Congratulations. The list has been sorted correctly.
+Test3:
+[Proc: 0] number of processes = 1, initial local list size = 20480000, hypercube quicksort time = 2.680321
+[Proc: 0] Congratulations. The list has been sorted correctly.
+Test4:
+[Proc: 0] number of processes = 1, initial local list size = 20480000, hypercube quicksort time = 2.685832
+[Proc: 0] Congratulations. The list has been sorted correctly.
+Test5:
+[Proc: 0] number of processes = 1, initial local list size = 20480000, hypercube quicksort time = 2.688335
+[Proc: 0] Congratulations. The list has been sorted correctly.
+
+
+
+Q2 np = 1, total points = 40960000
+Test1:
+[Proc: 0] number of processes = 1, initial local list size = 40960000, hypercube quicksort time = 5.565084
+[Proc: 0] Congratulations. The list has been sorted correctly.
+Test2:
+[Proc: 0] number of processes = 1, initial local list size = 40960000, hypercube quicksort time = 5.544117
+[Proc: 0] Congratulations. The list has been sorted correctly.
+Test3:
+[Proc: 0] number of processes = 1, initial local list size = 40960000, hypercube quicksort time = 5.549343
+[Proc: 0] Congratulations. The list has been sorted correctly.
+Test4:
+[Proc: 0] number of processes = 1, initial local list size = 40960000, hypercube quicksort time = 5.537735
+[Proc: 0] Congratulations. The list has been sorted correctly.
+Test5:
+[Proc: 0] number of processes = 1, initial local list size = 40960000, hypercube quicksort time = 5.536750
+[Proc: 0] Congratulations. The list has been sorted correctly.
+
+
+
+Q2 np = 1, total points = 81920000
+Test1:
+[Proc: 0] number of processes = 1, initial local list size = 81920000, hypercube quicksort time = 11.429473
+[Proc: 0] Congratulations. The list has been sorted correctly.
+Test2:
+[Proc: 0] number of processes = 1, initial local list size = 81920000, hypercube quicksort time = 11.433464
+[Proc: 0] Congratulations. The list has been sorted correctly.
+Test3:
+[Proc: 0] number of processes = 1, initial local list size = 81920000, hypercube quicksort time = 11.431974
+[Proc: 0] Congratulations. The list has been sorted correctly.
+Test4:
+[Proc: 0] number of processes = 1, initial local list size = 81920000, hypercube quicksort time = 11.428046
+[Proc: 0] Congratulations. The list has been sorted correctly.
+Test5:
+[Proc: 0] number of processes = 1, initial local list size = 81920000, hypercube quicksort time = 11.466768
+[Proc: 0] Congratulations. The list has been sorted correctly.
+
+
+
+Q2 np = 1, total points = 163840000
+Test1:
+[Proc: 0] number of processes = 1, initial local list size = 163840000, hypercube quicksort time = 23.587179
+[Proc: 0] Congratulations. The list has been sorted correctly.
+Test2:
+[Proc: 0] number of processes = 1, initial local list size = 163840000, hypercube quicksort time = 23.538856
+[Proc: 0] Congratulations. The list has been sorted correctly.
+Test3:
+[Proc: 0] number of processes = 1, initial local list size = 163840000, hypercube quicksort time = 23.561525
+[Proc: 0] Congratulations. The list has been sorted correctly.
+Test4:
+[Proc: 0] number of processes = 1, initial local list size = 163840000, hypercube quicksort time = 23.565450
+[Proc: 0] Congratulations. The list has been sorted correctly.
+Test5:
+[Proc: 0] number of processes = 1, initial local list size = 163840000, hypercube quicksort time = 23.565716
+[Proc: 0] Congratulations. The list has been sorted correctly.
+
+
+
+Q2 np = 1, total points = 327680000
+Test1:
+[Proc: 0] number of processes = 1, initial local list size = 327680000, hypercube quicksort time = 48.674495
+[Proc: 0] Congratulations. The list has been sorted correctly.
+Test2:
+[Proc: 0] number of processes = 1, initial local list size = 327680000, hypercube quicksort time = 48.563671
+[Proc: 0] Congratulations. The list has been sorted correctly.
+Test3:
+[Proc: 0] number of processes = 1, initial local list size = 327680000, hypercube quicksort time = 48.466831
+[Proc: 0] Congratulations. The list has been sorted correctly.
+Test4:
+[Proc: 0] number of processes = 1, initial local list size = 327680000, hypercube quicksort time = 48.490305
+[Proc: 0] Congratulations. The list has been sorted correctly.
+Test5:
+[Proc: 0] number of processes = 1, initial local list size = 327680000, hypercube quicksort time = 48.478924
+[Proc: 0] Congratulations. The list has been sorted correctly.
+
+
+
+Q2 np = 1, total points = 655360000
+Test1:
+[Proc: 0] number of processes = 1, initial local list size = 655360000, hypercube quicksort time = 100.000712
+[Proc: 0] Congratulations. The list has been sorted correctly.
+Test2:
+[Proc: 0] number of processes = 1, initial local list size = 655360000, hypercube quicksort time = 99.704019
+[Proc: 0] Congratulations. The list has been sorted correctly.
+Test3:
+[Proc: 0] number of processes = 1, initial local list size = 655360000, hypercube quicksort time = 99.787054
+[Proc: 0] Congratulations. The list has been sorted correctly.
+Test4:
+[Proc: 0] number of processes = 1, initial local list size = 655360000, hypercube quicksort time = 99.817182
+[Proc: 0] Congratulations. The list has been sorted correctly.
+Test5:
+[Proc: 0] number of processes = 1, initial local list size = 655360000, hypercube quicksort time = 99.818052
+[Proc: 0] Congratulations. The list has been sorted correctly.
+
+
+
+Q2 np = 1, total points = 1310720000
+Test1:
+[Proc: 0] number of processes = 1, initial local list size = 1310720000, hypercube quicksort time = 205.316208
+[Proc: 0] Congratulations. The list has been sorted correctly.
+Test2:
+[Proc: 0] number of processes = 1, initial local list size = 1310720000, hypercube quicksort time = 205.100225
+[Proc: 0] Congratulations. The list has been sorted correctly.
+Test3:
+[Proc: 0] number of processes = 1, initial local list size = 1310720000, hypercube quicksort time = 207.142883
+[Proc: 0] Congratulations. The list has been sorted correctly.
+Test4:
+User defined signal 2
+
+------------------------------------------------------------
+Sender: LSF System <lsfadmin@nxt1313>
+Subject: Job 13132502: <inverseMatrix> in cluster <Main_Compute> Exited
+
+Job <inverseMatrix> was submitted from host <login8> by user <alireza.safdari> in cluster <Main_Compute>.
+Job was executed on host(s) <20*nxt1313>, in queue <sn_short>, as user <alireza.safdari> in cluster <Main_Compute>.
+</home/alireza.safdari> was used as the home directory.
+</scratch/user/alireza.safdari> was used as the working directory.
+Started at Thu Nov 19 01:30:48 2020
+Results reported on Thu Nov 19 02:01:06 2020
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+#BSUB -n 20 -R 'select[nxt] rusage[mem=2560] span[ptile=20]' -M 2560
+#BSUB -J inverseMatrix -o output.%J -L /bin/bash -W 0:30
+##
+##NECESSARY JOB SPECIFICATIONS
+##BSUB -J JobName             # Set the job name to "JobName"
+##BSUB -L /bin/bash           # Uses the bash login shell to initialize the job's execution environment.
+##BSUB -W hh:mm               # Sets job's runtime wall-clock limit in hours:minutes or just minutes (-mm)
+##BSUB -n NNN                 # NNN: total number of cores/jobslots to allocate for the job
+##BSUB -R "select[node-type]" # Select node-type: nxt, mem256gb, gpu, phi, mem1t, mem2t ...
+##BSUB -R "span[ptile=XX]"    # XX:  number of cores/jobslots per node to use. Also, a node selection criterion.
+##BSUB -R "rusage[mem=nnn]"   # Reserves nnn MBs per process/CPU for the job
+##BSUB -M mm                  # Sets the per process enforceable memory limit to nnn MB
+##BSUB -o OUTPUTFILE.%J       # Send stdout and stderr to "OUTPUTFILE.[jobID]"
+#
+# <--- at this point the current working directory is the one you submitted the job from.
+#
+module load intel/2017A       # load Intel software stack 
+#
+#
+
+declare -i pointsPerProcessor=20480000
+#1 2 4 8 16 32 64
+for np in 1 2 4 8 16 32 64
+do
+declare -i totalPoints=pointsPerProcessor*np
+echo "Q2 np = 1, total points = $totalPoints"
+echo "Test1:"
+mpirun -np 1 ./qsort_hypercube.exe $totalPoints 0
+echo "Test2:"
+mpirun -np 1 ./qsort_hypercube.exe $totalPoints 0
+echo "Test3:"
+mpirun -np 1 ./qsort_hypercube.exe $totalPoints 0
+echo "Test4:"
+mpirun -np 1 ./qsort_hypercube.exe $totalPoints 0
+echo "Test5:"
+mpirun -np 1 ./qsort_hypercube.exe $totalPoints 0
+echo ""
+echo ""
+echo ""
+done
+
+------------------------------------------------------------
+
+TERM_RUNLIMIT: job killed after reaching LSF run time limit.
+Exited with exit code 140.
+
+Resource usage summary:
+
+    CPU time :                                   3558.00 sec.
+    Max Memory :                                 10015 MB
+    Average Memory :                             4500.34 MB
+    Total Requested Memory :                     51200.00 MB
+    Delta Memory :                               41185.00 MB
+    Max Processes :                              9
+    Max Threads :                                11
+
+The output (if any) is above this job summary.
+
